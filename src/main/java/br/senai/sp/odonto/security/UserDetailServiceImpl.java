@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 import br.senai.sp.odonto.repository.UserRepository;
 
-//@Service -> assinatura que informa ao String que pode ser utilizado como serviço
+//@Service -> assinatura que informa ao Spring que pode ser utilizado como serviço
 @Service
 public class UserDetailServiceImpl implements UserDetailsService {
 
